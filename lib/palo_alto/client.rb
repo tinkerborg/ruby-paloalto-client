@@ -26,7 +26,7 @@ module PaloAlto
       #                       username:    'test_user',
       #                       password:    'test_pass',
       #                       api_version: '6'
-      def new(host:, port:, ssl: false, username:, password:, api_version:)
+      def new(host:'', port:'', ssl: false, username:'', password:'', api_version:'')
         api = nil
 
         # check that the API version is implemented

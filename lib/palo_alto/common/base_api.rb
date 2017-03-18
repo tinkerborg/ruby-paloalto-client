@@ -22,7 +22,7 @@ module PaloAlto
       #                        ssl:         true,
       #                        username:    'test_user',
       #                        password:    'test_pass'
-      def initialize(host:, port:, ssl: false, username:, password:)
+      def initialize(host:'', port:'', ssl: false, username:'', password:'')
         self.host     = host
         self.port     = port
         self.ssl      = ssl
